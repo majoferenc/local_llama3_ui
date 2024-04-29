@@ -4,8 +4,8 @@ Chat UI for local offline Llama3 Model to chat with.
 ![Alt text](llama3_streamlit.png?raw=true "Streamlit UI")
 
 ## Prerequisites
-Install Ollama - https://ollama.com/
-Install Python 3
+- Install Ollama - https://ollama.com/
+- Install Python 3
 
 ## Download Llama 3 model 
 
