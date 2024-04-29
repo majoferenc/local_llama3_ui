@@ -1,6 +1,10 @@
 # Local Llama 3 UI
 Chat UI for local offline Llama3 Model to chat with.
 
+## Architecture
+![Alt text](architecture.png?raw=true "Architecture")
+
+## Streamlit UI
 ![Alt text](llama3_streamlit.png?raw=true "Streamlit UI")
 
 ## Prerequisites
