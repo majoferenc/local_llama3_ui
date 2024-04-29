@@ -21,13 +21,19 @@ In your terminal:
 
   `pip install -r requirements.txt`
 
+## Run the Streamlit app
+
+  streamlit run streamlit_app_v2.py
+
 ## Create Shell alias
 Add into your `bashrc` or `zshrc` file:
 
-  `alias llama='cd ~/IBM/llama3_local; streamlit run streamlit_app_v2.py'`
+  `alias llama='cd ~/llama3_local; streamlit run streamlit_app_v2.py'`
 
-NOTE: update the `cd ~/IBM/llama3_local` with the path, where you've saved this project.
+NOTE: update the `cd ~/llama3_local` with the path, where you've saved this project.
 
-## Run the alias
+## Run the shell alias to call it from any directory
 
   `llama`
+
+  
