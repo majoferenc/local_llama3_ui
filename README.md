@@ -10,20 +10,20 @@ Chat UI for local offline Llama3 Model to chat with.
 ## Download Llama 3 model 
 In your terminal:
 
-  ollama pull llama3:latest
+  `ollama pull llama3:latest`
 
 ## Install Python libraries
 In your terminal:
 
-  pip install -r requirements.txt
+  `pip install -r requirements.txt`
 
 ## Create Shell alias
 Add into your `bashrc` or `zshrc` file:
 
-  alias llama='cd ~/IBM/llama3_local; streamlit run streamlit_app_v2.py'
+  `alias llama='cd ~/IBM/llama3_local; streamlit run streamlit_app_v2.py'`
 
 NOTE: update the `cd ~/IBM/llama3_local` with the path, where you've saved this project.
 
 ## Run the alias
 
-  llama
+  `llama`
