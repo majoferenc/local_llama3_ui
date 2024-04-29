@@ -23,7 +23,7 @@ In your terminal:
 
 ## Run the Streamlit app
 
-  streamlit run streamlit_app_v2.py
+  `streamlit run streamlit_app_v2.py`
 
 ## Create Shell alias
 Add into your `bashrc` or `zshrc` file:
