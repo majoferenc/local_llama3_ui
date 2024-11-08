@@ -19,15 +19,17 @@ In your terminal:
 ## Create Python Virtual Env
 Via conda (miniconda):
 
+```
   conda create --name local-llm python=3.12
   conda activate local-llm
-​
+```
+
 Or via Python Venv:
 
+```
   python3.12 -m venv env​
-
   source env/bin/activate​
-
+```
 ​
 To deactivate env after the session run:
   
