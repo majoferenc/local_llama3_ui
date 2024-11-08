@@ -8,7 +8,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_community.chat_message_histories import SQLChatMessageHistory
 
 #set_debug(True)
-model_name = "llama3:latest"
+model_name = "llama3:8b"
 
 llm = ChatOllama(model=model_name)
 
