@@ -14,7 +14,24 @@ Chat UI for local offline Llama3 Model to chat with.
 ## Download Llama 3 model 
 In your terminal:
 
-  `ollama pull llama3:latest`
+  `ollama pull llama3:8b`
+
+## Create Python Virtual Env
+Via conda (miniconda):
+
+  conda create --name local-llm python=3.12
+  conda activate local-llm
+​
+Or via Python Venv:
+
+  python3.12 -m venv env​
+
+  source env/bin/activate​
+
+​
+To deactivate env after the session run:
+  
+  deactivate​
 
 ## Install Python libraries
 In your terminal:
@@ -25,7 +42,7 @@ In your terminal:
 
   `streamlit run streamlit_app_v2.py`
 
-## Create Shell alias
+## Create Shell alias (optional)
 Add into your `bashrc` or `zshrc` file:
 
   `alias llama='cd ~/llama3_local; streamlit run streamlit_app_v2.py'`
