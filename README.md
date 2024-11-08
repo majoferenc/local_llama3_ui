@@ -33,7 +33,7 @@ Or via Python Venv:
 ​
 To deactivate env after the session run:
   
-  deactivate​
+  `deactivate​`
 
 ## Install Python libraries
 In your terminal:
